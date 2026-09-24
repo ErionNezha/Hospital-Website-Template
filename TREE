@@ -1,0 +1,53 @@
+Hospital-Website-Template/
+  demo/
+    Hôpital website by coding team/
+      css/
+        style.css
+      image/
+        about-img.svg
+        blog-1.jpg
+        blog-2.jpg
+        blog-3.jpg
+        book-img.svg
+        doc-1.jpg
+        doc-2.jpg
+        doc-3.jpg
+        doc-4.jpg
+        doc-5.jpg
+        doc-6.jpg
+        home-img.svg
+        pic-1.png
+        pic-2.png
+        pic-3.png
+      index.html
+      js/
+        script.js
+      liser-moi.txt
+  index.html
+  original/
+    Hôpital website by coding team/
+      Hôpital website by coding team/
+        css/
+          style.css
+        image/
+          about-img.svg
+          blog-1.jpg
+          blog-2.jpg
+          blog-3.jpg
+          book-img.svg
+          doc-1.jpg
+          doc-2.jpg
+          doc-3.jpg
+          doc-4.jpg
+          doc-5.jpg
+          doc-6.jpg
+          home-img.svg
+          pic-1.png
+          pic-2.png
+          pic-3.png
+        index.html
+        js/
+          script.js
+        liser-moi.txt
+  PROVENANCE_LICENSE.txt
+  README.md
