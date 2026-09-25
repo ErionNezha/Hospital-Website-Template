@@ -40,8 +40,8 @@ footer strong{color:#9fb3c8}
 <body>
 <header class="top">
 <h1>🏥 Hospital Website Template</h1>
-<p class="desc-al">Site spitali/klinike nga Coding Team.</p>
-<p class="desc-en" lang="en">Hospital/clinic website by Coding Team.</p>
+<p class="desc-al">Site spitali/klinike nga Erion Nezha.</p>
+<p class="desc-en" lang="en">Hospital/clinic website by Erion Nezha.</p>
 <p class="license-line">© 2026 Erion Nezha — Të gjitha të drejtat e rezervuara · All rights reserved</p>
 <div class="badges"><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span></div>
 </header>
@@ -51,7 +51,7 @@ footer strong{color:#9fb3c8}
 </div>
 <main>
 <div class="note">💡 Demo-ja live ekzekutohet direkt në browser. Kliko <strong>Kodi Burim</strong> për të parë kodin e plotë — si të demos (<strong>demo/</strong>), ashtu edhe origjinalin e paprekur (<strong>original/</strong>).</div>
-<div id="p-demo" class="panel active"><iframe class="demo" src="demo/Hôpital website by coding team/index.html" title="Live demo"></iframe></div>
+<div id="p-demo" class="panel active"><iframe class="demo" src="demo/hopital/index.html" title="Live demo"></iframe></div>
 <div id="p-code" class="panel"><div class="codewrap">
 <aside class="tree" id="tree"></aside>
 <div class="codeview"><div class="cbar" id="cbar"></div><div id="codebox"><pre></pre></div></div>
@@ -59,7 +59,7 @@ footer strong{color:#9fb3c8}
 </main>
 <footer>Krijuar nga <strong>Erion Nezha</strong> — © 2026 · Të gjitha të drejtat e rezervuara / All rights reserved</footer>
 <script>
-const TREE={"dirs":[{"name":"demo","dirs":[{"name":"Hôpital website by coding team","dirs":[{"name":"css","dirs":[],"files":["style.css"]},{"name":"image","dirs":[],"files":["about-img.svg","blog-1.jpg","blog-2.jpg","blog-3.jpg","book-img.svg","doc-1.jpg","doc-2.jpg","doc-3.jpg","doc-4.jpg","doc-5.jpg","doc-6.jpg","home-img.svg","pic-1.png","pic-2.png","pic-3.png"]},{"name":"js","dirs":[],"files":["script.js"]}],"files":["index.html","liser-moi.txt"]}],"files":[]},{"name":"original","dirs":[{"name":"Hôpital website by coding team","dirs":[{"name":"Hôpital website by coding team","dirs":[{"name":"css","dirs":[],"files":["style.css"]},{"name":"image","dirs":[],"files":["about-img.svg","blog-1.jpg","blog-2.jpg","blog-3.jpg","book-img.svg","doc-1.jpg","doc-2.jpg","doc-3.jpg","doc-4.jpg","doc-5.jpg","doc-6.jpg","home-img.svg","pic-1.png","pic-2.png","pic-3.png"]},{"name":"js","dirs":[],"files":["script.js"]}],"files":["index.html","liser-moi.txt"]}],"files":[]}],"files":[]}],"files":[]};
+const TREE={"dirs":[{"name":"demo","dirs":[{"name":"hopital","dirs":[{"name":"css","dirs":[],"files":["style.css"]},{"name":"image","dirs":[],"files":["about-img.svg","blog-1.jpg","blog-2.jpg","blog-3.jpg","book-img.svg","doc-1.jpg","doc-2.jpg","doc-3.jpg","doc-4.jpg","doc-5.jpg","doc-6.jpg","home-img.svg","pic-1.png","pic-2.png","pic-3.png"]},{"name":"js","dirs":[],"files":["script.js"]}],"files":["index.html","liser-moi.txt"]}],"files":[]},{"name":"original","dirs":[{"name":"hopital","dirs":[{"name":"hopital","dirs":[{"name":"css","dirs":[],"files":["style.css"]},{"name":"image","dirs":[],"files":["about-img.svg","blog-1.jpg","blog-2.jpg","blog-3.jpg","book-img.svg","doc-1.jpg","doc-2.jpg","doc-3.jpg","doc-4.jpg","doc-5.jpg","doc-6.jpg","home-img.svg","pic-1.png","pic-2.png","pic-3.png"]},{"name":"js","dirs":[],"files":["script.js"]}],"files":["index.html","liser-moi.txt"]}],"files":[]}],"files":[]}],"files":[]};
 function show(id,btn){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.getElementById('p-'+id).classList.add('active');document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
 const BINRE=/\.(png|jpe?g|gif|svg|ico|exe|class|o|jar|dat|ogg|mp3|wav|ttf|woff2?|eot|pdf|zip|rar|db|sqlite)$/i;
 function escAttr(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
